@@ -1,0 +1,47 @@
+TARGETNAME=ProteinBoxDrv
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+TARGETPATH=bin
+TARGETLIBS=InlineEngine.lib
+
+INCLUDES=.\
+
+SOURCES = 1.rc \
+		ProteinBoxDrv.c \
+		DispatchIoctl.c \
+		DoWork.c \
+		Common.c \
+		Memory.c \
+		Security.c \
+		Version.c \
+		SdtData.c \
+		SSDT.c \
+		ShadowSSDT.c \
+		ShadowSSDTProc.c \
+		Notify.c \
+		ProcessNofity.c \
+		ImageNotify.c \
+		InjectDll.c \
+		GetVersion.c \
+		StartProcess.c \
+		ProcessData.c \
+		Config.c \
+		SecurityData.c \
+		RegHiveData.c \
+		ObjectHook.c \
+		ObjectData.c \
+		ObjectProc.c \
+		ConfigData.c \
+		ConfigThread.c \
+		GrayList.c \
+		ldasm.c \
+		GetInjectSaveArea.c \
+		WhiteOrBlack.c \
+		CreateDirOrLink.c \
+		DuplicateObject.c \
+		GetFileName.c \
+		SandboxsList.c \
+		EnumBoxs.c \
+		ForceRunList.c \
+		DisableForceProcess.c \
+		

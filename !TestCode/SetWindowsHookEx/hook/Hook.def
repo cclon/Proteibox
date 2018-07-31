@@ -1,0 +1,6 @@
+LIBRARY      "Hook"
+DESCRIPTION  'Hook Windows Dynamic Link Library'
+
+EXPORTS InstallHook
+EXPORTS UnInstallHook
+

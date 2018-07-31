@@ -1,0 +1,12 @@
+TARGETNAME=ImageNotifyDll
+TARGETTYPE=DRIVER
+TARGETPATH=bin
+
+
+INCLUDES=.\
+
+SOURCES = 1.rc \
+		ImageNotifyDll.c \
+		DoWork.c \
+		InjectDll.c \
+		Common.c

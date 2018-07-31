@@ -1,0 +1,1 @@
+Detour_Inject_Dll.exe /d:1.dll

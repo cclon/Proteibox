@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageNotifyDll", "ImageNotifyDll.vcproj", "{40EB91DE-E1F2-428C-BC80-00C969963AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		XP Checked|Win32 = XP Checked|Win32
+		XP Free|Win32 = XP Free|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40EB91DE-E1F2-428C-BC80-00C969963AFA}.XP Checked|Win32.ActiveCfg = XP Checked|Win32
+		{40EB91DE-E1F2-428C-BC80-00C969963AFA}.XP Checked|Win32.Build.0 = XP Checked|Win32
+		{40EB91DE-E1F2-428C-BC80-00C969963AFA}.XP Free|Win32.ActiveCfg = XP Free|Win32
+		{40EB91DE-E1F2-428C-BC80-00C969963AFA}.XP Free|Win32.Build.0 = XP Free|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
